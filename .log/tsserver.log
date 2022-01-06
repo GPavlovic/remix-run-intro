@@ -1,0 +1,905 @@
+Info 0    [19:32:33.303] Starting TS Server
+Info 1    [19:32:33.303] Version: 4.5.4
+Info 2    [19:32:33.304] Arguments: /home/gpavlovic/.nvm/versions/node/v14.17.5/bin/node /home/gpavlovic/sources/remix-run-intro/node_modules/.bin/tsserver --logFile /home/gpavlovic/sources/remix-run-intro/.log/tsserver.log --logVerbosity info --cancellationPipeName /tmp/c34ae49c64a8ad8a473499852d50c4bf/tscancellation*
+Info 3    [19:32:33.304] Platform: linux NodeVersion: 14 CaseSensitive: true
+Info 4    [19:32:33.304] ServerMode: undefined syntaxOnly: false hasUnknownServerMode: undefined
+Info 5    [19:32:33.850] Search path: /home/gpavlovic/sources/remix-run-intro/app/routes
+Info 6    [19:32:33.852] For info: /home/gpavlovic/sources/remix-run-intro/app/routes/index.tsx :: Config file name: /home/gpavlovic/sources/remix-run-intro/tsconfig.json
+Info 7    [19:32:33.852] Creating configuration project /home/gpavlovic/sources/remix-run-intro/tsconfig.json
+Info 8    [19:32:33.874] Config: /home/gpavlovic/sources/remix-run-intro/tsconfig.json : {
+ "rootNames": [
+  "/home/gpavlovic/sources/remix-run-intro/remix.env.d.ts",
+  "/home/gpavlovic/sources/remix-run-intro/app/entry.client.tsx",
+  "/home/gpavlovic/sources/remix-run-intro/app/entry.server.tsx",
+  "/home/gpavlovic/sources/remix-run-intro/app/root.tsx",
+  "/home/gpavlovic/sources/remix-run-intro/app/routes/index.tsx"
+ ],
+ "options": {
+  "lib": [
+   "lib.dom.d.ts",
+   "lib.dom.iterable.d.ts",
+   "lib.es2019.d.ts"
+  ],
+  "isolatedModules": true,
+  "esModuleInterop": true,
+  "jsx": 4,
+  "moduleResolution": 2,
+  "resolveJsonModule": true,
+  "target": 6,
+  "strict": true,
+  "baseUrl": "/home/gpavlovic/sources/remix-run-intro",
+  "paths": {
+   "~/*": [
+    "./app/*"
+   ]
+  },
+  "noEmit": true,
+  "pathsBasePath": "/home/gpavlovic/sources/remix-run-intro",
+  "configFilePath": "/home/gpavlovic/sources/remix-run-intro/tsconfig.json"
+ }
+}
+Info 9    [19:32:33.977] Starting updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json
+Info 10   [19:32:35.171] Finishing updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json Version: 1 structureChanged: true structureIsReused:: Not Elapsed: 1194.0023980140686ms
+Info 11   [19:32:35.171] Project '/home/gpavlovic/sources/remix-run-intro/tsconfig.json' (Configured)
+Info 12   [19:32:35.171] 	Files (184)
+
+Info 13   [19:32:35.171] -----------------------------------------------
+Info 14   [19:32:35.177] Starting updateGraphWorker: Project: /dev/null/autoImportProviderProject1*
+Info 15   [19:32:35.179] Finishing updateGraphWorker: Project: /dev/null/autoImportProviderProject1* Version: 1 structureChanged: true structureIsReused:: Not Elapsed: 2.253096103668213ms
+Info 16   [19:32:35.179] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
+Info 17   [19:32:35.179] 	Files (1)
+
+Info 18   [19:32:35.179] -----------------------------------------------
+Info 19   [19:32:44.266] Search path: /home/gpavlovic/sources/remix-run-intro/app
+Info 20   [19:32:44.266] For info: /home/gpavlovic/sources/remix-run-intro/app/entry.client.tsx :: Config file name: /home/gpavlovic/sources/remix-run-intro/tsconfig.json
+Info 21   [19:32:55.377] Search path: /home/gpavlovic/sources/remix-run-intro/app
+Info 22   [19:32:55.377] For info: /home/gpavlovic/sources/remix-run-intro/app/entry.server.tsx :: Config file name: /home/gpavlovic/sources/remix-run-intro/tsconfig.json
+Info 23   [19:33:06.450] Search path: /home/gpavlovic/sources/remix-run-intro/app
+Info 24   [19:33:06.450] For info: /home/gpavlovic/sources/remix-run-intro/app/root.tsx :: Config file name: /home/gpavlovic/sources/remix-run-intro/tsconfig.json
+Info 25   [19:41:08.638] Starting updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json
+Info 26   [19:41:08.716] Finishing updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json Version: 2 structureChanged: true structureIsReused:: SafeModules Elapsed: 78.22504711151123ms
+Info 27   [19:41:08.716] Different program with same set of files
+Info 28   [19:41:10.684] Starting updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json
+Info 29   [19:41:10.714] Finishing updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json Version: 3 structureChanged: false structureIsReused:: Completely Elapsed: 29.649385929107666ms
+Info 30   [19:41:10.714] Different program with same set of files
+Info 31   [19:41:10.907] getCompletionData: Get current token: 0.0523529052734375
+Info 32   [19:41:10.907] getCompletionData: Is inside comment: 0.02317500114440918
+Info 33   [19:41:10.908] getCompletionData: Get previous token: 0.12515616416931152
+Info 34   [19:41:10.909] getCompletionsAtPosition: isCompletionListBlocker: 0.5812180042266846
+Info 35   [19:41:10.919] getExportInfoMap: cache miss or empty; calculating new results
+Info 36   [19:41:10.961] forEachExternalModuleToImportFrom autoImportProvider: 0.13352108001708984
+Info 37   [19:41:10.961] getExportInfoMap: done in 42.6730580329895 ms
+Info 38   [19:41:10.995] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 259 from cache
+Info 39   [19:41:10.995] collectAutoImports: response is incomplete
+Info 40   [19:41:10.995] collectAutoImports: 33.531075954437256
+Info 41   [19:41:10.995] getCompletionData: Semantic work: 86.18980598449707
+Info 42   [19:41:11.020] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 24.852962970733643
+Info 43   [19:41:11.036] getCompletionData: Get current token: 0.013498067855834961
+Info 44   [19:41:11.036] getCompletionData: Is inside comment: 0.00615692138671875
+Info 45   [19:41:11.036] getCompletionData: Get previous token: 0.04067420959472656
+Info 46   [19:41:11.036] getCompletionsAtPosition: isCompletionListBlocker: 0.004257917404174805
+Info 47   [19:41:11.040] getExportInfoMap: cache hit
+Info 48   [19:41:11.076] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 259 from cache
+Info 49   [19:41:11.077] collectAutoImports: response is incomplete
+Info 50   [19:41:11.077] collectAutoImports: 36.64833307266235
+Info 51   [19:41:11.077] getCompletionData: Semantic work: 40.25127696990967
+Info 52   [19:41:11.093] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 16.64852499961853
+Info 53   [19:41:11.098] getCompletionData: Get current token: 0.009675025939941406
+Info 54   [19:41:11.098] getCompletionData: Is inside comment: 0.0046460628509521484
+Info 55   [19:41:11.098] getCompletionData: Get previous token: 0.027217864990234375
+Info 56   [19:41:11.098] getCompletionsAtPosition: isCompletionListBlocker: 0.0038568973541259766
+Info 57   [19:41:11.101] getExportInfoMap: cache hit
+Info 58   [19:41:11.116] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 259 from cache
+Info 59   [19:41:11.116] collectAutoImports: response is incomplete
+Info 60   [19:41:11.116] collectAutoImports: 15.667184114456177
+Info 61   [19:41:11.117] getCompletionData: Semantic work: 18.40943694114685
+Info 62   [19:41:11.140] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 22.12186884880066
+Info 63   [19:41:11.144] Starting updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json
+Info 64   [19:41:11.149] Finishing updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json Version: 4 structureChanged: false structureIsReused:: Completely Elapsed: 5.347373962402344ms
+Info 65   [19:41:11.149] Different program with same set of files
+Info 66   [19:41:11.150] getCompletionData: Get current token: 0.013708114624023438
+Info 67   [19:41:11.150] getCompletionData: Is inside comment: 0.005102872848510742
+Info 68   [19:41:11.150] getCompletionData: Get previous token: 0.04471778869628906
+Info 69   [19:41:11.150] getCompletionsAtPosition: isCompletionListBlocker: 0.005027055740356445
+Info 70   [19:41:11.153] getExportInfoMap: cache hit
+Info 71   [19:41:11.162] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 40 from cache
+Info 72   [19:41:11.162] collectAutoImports: response is incomplete
+Info 73   [19:41:11.162] collectAutoImports: 9.195770978927612
+Info 74   [19:41:11.162] getCompletionData: Semantic work: 12.586920022964478
+Info 75   [19:41:11.205] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 17.694904088974
+Info 76   [19:41:11.208] getCompletionData: Get current token: 0.009243965148925781
+Info 77   [19:41:11.208] getCompletionData: Is inside comment: 0.005252838134765625
+Info 78   [19:41:11.208] getCompletionData: Get previous token: 0.4286069869995117
+Info 79   [19:41:11.208] getCompletionsAtPosition: isCompletionListBlocker: 0.004477024078369141
+Info 80   [19:41:11.210] getExportInfoMap: cache hit
+Info 81   [19:41:11.217] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 40 from cache
+Info 82   [19:41:11.217] collectAutoImports: response is incomplete
+Info 83   [19:41:11.217] collectAutoImports: 6.771316051483154
+Info 84   [19:41:11.217] getCompletionData: Semantic work: 8.47293210029602
+Info 85   [19:41:11.231] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 12.566094875335693
+Info 86   [19:41:11.234] getCompletionData: Get current token: 0.010077953338623047
+Info 87   [19:41:11.234] getCompletionData: Is inside comment: 0.004681110382080078
+Info 88   [19:41:11.234] getCompletionData: Get previous token: 0.05913186073303223
+Info 89   [19:41:11.234] getCompletionsAtPosition: isCompletionListBlocker: 0.0074350833892822266
+Info 90   [19:41:11.236] getExportInfoMap: cache hit
+Info 91   [19:41:11.238] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 40 from cache
+Info 92   [19:41:11.238] collectAutoImports: response is incomplete
+Info 93   [19:41:11.238] collectAutoImports: 2.0389721393585205
+Info 94   [19:41:11.238] getCompletionData: Semantic work: 3.6871559619903564
+Info 95   [19:41:11.243] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 4.812127113342285
+Info 96   [19:41:11.254] Starting updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json
+Info 97   [19:41:11.259] Finishing updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json Version: 5 structureChanged: false structureIsReused:: Completely Elapsed: 5.091063976287842ms
+Info 98   [19:41:11.260] Different program with same set of files
+Info 99   [19:41:11.509] Starting updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json
+Info 100  [19:41:11.534] Finishing updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json Version: 6 structureChanged: false structureIsReused:: Completely Elapsed: 24.28508710861206ms
+Info 101  [19:41:11.534] Different program with same set of files
+Info 102  [19:41:11.535] getCompletionData: Get current token: 0.03604888916015625
+Info 103  [19:41:11.535] getCompletionData: Is inside comment: 0.012526988983154297
+Info 104  [19:41:11.535] getCompletionData: Get previous token: 0.10519099235534668
+Info 105  [19:41:11.535] getCompletionsAtPosition: isCompletionListBlocker: 0.011620044708251953
+Info 106  [19:41:11.540] getExportInfoMap: cache hit
+Info 107  [19:41:11.546] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 24 from cache
+Info 108  [19:41:11.546] collectAutoImports: response is incomplete
+Info 109  [19:41:11.546] collectAutoImports: 5.631138801574707
+Info 110  [19:41:11.546] getCompletionData: Semantic work: 10.566273927688599
+Info 111  [19:41:11.574] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 4.457690954208374
+Info 112  [19:41:12.454] Starting updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json
+Info 113  [19:41:12.458] Finishing updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json Version: 7 structureChanged: false structureIsReused:: Completely Elapsed: 3.890963077545166ms
+Info 114  [19:41:12.458] Different program with same set of files
+Info 115  [19:41:12.459] getCompletionData: Get current token: 0.024100065231323242
+Info 116  [19:41:12.459] getCompletionData: Is inside comment: 0.007460832595825195
+Info 117  [19:41:12.459] getCompletionData: Get previous token: 0.04146003723144531
+Info 118  [19:41:12.459] getCompletionsAtPosition: isCompletionListBlocker: 0.004327058792114258
+Info 119  [19:41:12.463] getExportInfoMap: cache hit
+Info 120  [19:41:12.473] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 73 from cache
+Info 121  [19:41:12.473] collectAutoImports: response is incomplete
+Info 122  [19:41:12.473] collectAutoImports: 10.170356035232544
+Info 123  [19:41:12.473] getCompletionData: Semantic work: 14.138647079467773
+Info 124  [19:41:12.499] forEachExternalModuleToImportFrom autoImportProvider: 0.014932870864868164
+Info 125  [19:41:12.523] getCompletionData: Get current token: 0.013493061065673828
+Info 126  [19:41:12.523] getCompletionData: Is inside comment: 0.005196094512939453
+Info 127  [19:41:12.523] getCompletionData: Get previous token: 0.031123876571655273
+Info 128  [19:41:12.523] getCompletionsAtPosition: isCompletionListBlocker: 0.007425069808959961
+Info 129  [19:41:12.524] getExportInfoMap: cache hit
+Info 130  [19:41:12.526] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 73 from cache
+Info 131  [19:41:12.526] collectAutoImports: response is incomplete
+Info 132  [19:41:12.526] collectAutoImports: 1.738288164138794
+Info 133  [19:41:12.526] getCompletionData: Semantic work: 3.330127000808716
+Info 134  [19:41:12.529] forEachExternalModuleToImportFrom autoImportProvider: 0.021005868911743164
+Info 135  [19:41:12.728] Starting updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json
+Info 136  [19:41:12.790] Finishing updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json Version: 8 structureChanged: true structureIsReused:: SafeModules Elapsed: 61.77515387535095ms
+Info 137  [19:41:12.790] Different program with same set of files
+Info 138  [19:41:14.909] Starting updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json
+Info 139  [19:41:14.927] Finishing updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json Version: 9 structureChanged: false structureIsReused:: Completely Elapsed: 18.020622968673706ms
+Info 140  [19:41:14.927] Different program with same set of files
+Info 141  [19:41:14.928] Starting updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json
+Info 142  [19:41:14.942] Finishing updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json Version: 10 structureChanged: false structureIsReused:: Completely Elapsed: 13.52016806602478ms
+Info 143  [19:41:14.942] Different program with same set of files
+Info 144  [19:41:15.208] Starting updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json
+Info 145  [19:41:15.228] Finishing updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json Version: 11 structureChanged: false structureIsReused:: Completely Elapsed: 19.44294500350952ms
+Info 146  [19:41:15.228] Different program with same set of files
+Info 147  [19:41:15.229] getCompletionData: Get current token: 0.048341989517211914
+Info 148  [19:41:15.229] getCompletionData: Is inside comment: 0.018838167190551758
+Info 149  [19:41:15.229] getCompletionData: Get previous token: 0.28723883628845215
+Info 150  [19:41:15.230] getCompletionsAtPosition: isCompletionListBlocker: 0.26383495330810547
+Info 151  [19:41:15.268] getCompletionData: Semantic work: 37.49612283706665
+Info 152  [19:41:15.273] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 5.308253049850464
+Info 153  [19:41:15.886] Starting updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json
+Info 154  [19:41:15.907] Finishing updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json Version: 12 structureChanged: false structureIsReused:: Completely Elapsed: 20.664817810058594ms
+Info 155  [19:41:15.907] Different program with same set of files
+Info 156  [19:41:16.334] Starting updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json
+Info 157  [19:41:16.353] Finishing updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json Version: 13 structureChanged: false structureIsReused:: Completely Elapsed: 18.554184913635254ms
+Info 158  [19:41:16.353] Different program with same set of files
+Info 159  [19:41:16.870] Starting updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json
+Info 160  [19:41:16.885] Finishing updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json Version: 14 structureChanged: false structureIsReused:: Completely Elapsed: 15.296106100082397ms
+Info 161  [19:41:16.886] Different program with same set of files
+Info 162  [19:41:16.922] Starting updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json
+Info 163  [19:41:16.927] Finishing updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json Version: 15 structureChanged: false structureIsReused:: Completely Elapsed: 4.013077020645142ms
+Info 164  [19:41:16.927] Different program with same set of files
+Info 165  [19:41:17.721] Starting updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json
+Info 166  [19:41:17.748] Finishing updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json Version: 16 structureChanged: false structureIsReused:: Completely Elapsed: 26.32740807533264ms
+Info 167  [19:41:17.748] Different program with same set of files
+Info 168  [19:41:18.276] Starting updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json
+Info 169  [19:41:18.301] Finishing updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json Version: 17 structureChanged: false structureIsReused:: Completely Elapsed: 24.160339832305908ms
+Info 170  [19:41:18.301] Different program with same set of files
+Info 171  [19:41:19.368] Starting updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json
+Info 172  [19:41:19.386] Finishing updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json Version: 18 structureChanged: false structureIsReused:: Completely Elapsed: 18.26723599433899ms
+Info 173  [19:41:19.387] Different program with same set of files
+Info 174  [19:41:19.388] getCompletionData: Get current token: 0.07168102264404297
+Info 175  [19:41:19.388] getCompletionData: Is inside comment: 0.030292034149169922
+Info 176  [19:41:19.388] getCompletionData: Get previous token: 0.13097500801086426
+Info 177  [19:41:19.389] getCompletionsAtPosition: isCompletionListBlocker: 0.2825188636779785
+Info 178  [19:41:19.396] getExportInfoMap: cache hit
+Info 179  [19:41:19.428] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 259 from cache
+Info 180  [19:41:19.429] collectAutoImports: response is incomplete
+Info 181  [19:41:19.429] collectAutoImports: 32.23483610153198
+Info 182  [19:41:19.429] getCompletionData: Semantic work: 39.33611989021301
+Info 183  [19:41:19.442] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 13.763092994689941
+Info 184  [19:41:19.978] Starting updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json
+Info 185  [19:41:19.994] Finishing updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json Version: 19 structureChanged: false structureIsReused:: Completely Elapsed: 15.553491115570068ms
+Info 186  [19:41:19.994] Different program with same set of files
+Info 187  [19:41:20.055] Starting updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json
+Info 188  [19:41:20.060] Finishing updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json Version: 20 structureChanged: false structureIsReused:: Completely Elapsed: 4.361248016357422ms
+Info 189  [19:41:20.060] Different program with same set of files
+Info 190  [19:41:20.865] Starting updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json
+Info 191  [19:41:20.868] Finishing updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json Version: 21 structureChanged: false structureIsReused:: Completely Elapsed: 2.773270845413208ms
+Info 192  [19:41:20.868] Different program with same set of files
+Info 193  [19:41:21.290] Starting updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json
+Info 194  [19:41:21.305] Finishing updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json Version: 22 structureChanged: false structureIsReused:: Completely Elapsed: 15.149127960205078ms
+Info 195  [19:41:21.305] Different program with same set of files
+Info 196  [19:41:22.188] Starting updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json
+Info 197  [19:41:22.203] Finishing updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json Version: 23 structureChanged: false structureIsReused:: Completely Elapsed: 14.983514070510864ms
+Info 198  [19:41:22.204] Different program with same set of files
+Info 199  [19:41:22.205] getCompletionData: Get current token: 0.04223203659057617
+Info 200  [19:41:22.205] getCompletionData: Is inside comment: 0.01892995834350586
+Info 201  [19:41:22.205] getCompletionData: Get previous token: 0.12749409675598145
+Info 202  [19:41:22.206] getCompletionsAtPosition: isCompletionListBlocker: 0.06980013847351074
+Info 203  [19:41:22.217] getExportInfoMap: cache hit
+Info 204  [19:41:22.247] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 259 from cache
+Info 205  [19:41:22.247] collectAutoImports: response is incomplete
+Info 206  [19:41:22.247] collectAutoImports: 29.816123008728027
+Info 207  [19:41:22.247] getCompletionData: Semantic work: 41.43299889564514
+Info 208  [19:41:22.261] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 11.848145961761475
+Info 209  [19:41:23.876] Starting updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json
+Info 210  [19:41:23.899] Finishing updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json Version: 24 structureChanged: false structureIsReused:: Completely Elapsed: 22.76304006576538ms
+Info 211  [19:41:23.899] Different program with same set of files
+Info 212  [19:41:24.520] Starting updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json
+Info 213  [19:41:24.533] Finishing updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json Version: 25 structureChanged: false structureIsReused:: Completely Elapsed: 12.041638851165771ms
+Info 214  [19:41:24.533] Different program with same set of files
+Info 215  [19:41:25.843] Starting updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json
+Info 216  [19:41:25.860] Finishing updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json Version: 26 structureChanged: false structureIsReused:: Completely Elapsed: 16.710105895996094ms
+Info 217  [19:41:25.860] Different program with same set of files
+Info 218  [19:41:25.862] getCompletionData: Get current token: 0.03163003921508789
+Info 219  [19:41:25.862] getCompletionData: Is inside comment: 0.07457494735717773
+Info 220  [19:41:25.862] getCompletionData: Get previous token: 0.10651588439941406
+Info 221  [19:41:25.862] getCompletionsAtPosition: isCompletionListBlocker: 0.05485987663269043
+Info 222  [19:41:25.872] getExportInfoMap: cache hit
+Info 223  [19:41:25.885] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 0 from cache
+Info 224  [19:41:25.885] collectAutoImports: response is complete
+Info 225  [19:41:25.885] collectAutoImports: 12.976114988327026
+Info 226  [19:41:25.885] getCompletionData: Semantic work: 22.598471879959106
+Info 227  [19:41:25.896] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 11.001331090927124
+Info 228  [19:41:26.264] Starting updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json
+Info 229  [19:41:26.267] Finishing updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json Version: 27 structureChanged: false structureIsReused:: Completely Elapsed: 3.232952117919922ms
+Info 230  [19:41:26.267] Different program with same set of files
+Info 231  [19:41:26.467] getCompletionData: Get current token: 0.04689812660217285
+Info 232  [19:41:26.467] getCompletionData: Is inside comment: 0.020437955856323242
+Info 233  [19:41:26.467] getCompletionData: Get previous token: 0.09132695198059082
+Info 234  [19:41:26.467] getCompletionsAtPosition: isCompletionListBlocker: 0.018517017364501953
+Info 235  [19:41:26.478] getExportInfoMap: cache hit
+Info 236  [19:41:26.510] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 259 from cache
+Info 237  [19:41:26.510] collectAutoImports: response is incomplete
+Info 238  [19:41:26.510] collectAutoImports: 31.427222967147827
+Info 239  [19:41:26.510] getCompletionData: Semantic work: 42.60687494277954
+Info 240  [19:41:26.517] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 6.381875038146973
+Info 241  [19:41:28.192] Starting updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json
+Info 242  [19:41:28.210] Finishing updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json Version: 28 structureChanged: false structureIsReused:: Completely Elapsed: 17.519028902053833ms
+Info 243  [19:41:28.210] Different program with same set of files
+Info 244  [19:41:28.212] getCompletionData: Get current token: 0.05148196220397949
+Info 245  [19:41:28.212] getCompletionData: Is inside comment: 0.025439977645874023
+Info 246  [19:41:28.212] getCompletionData: Get previous token: 0.06546306610107422
+Info 247  [19:41:28.212] getCompletionsAtPosition: isCompletionListBlocker: 0.03974318504333496
+Info 248  [19:41:28.224] getExportInfoMap: cache hit
+Info 249  [19:41:28.242] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 259 from cache
+Info 250  [19:41:28.242] collectAutoImports: response is incomplete
+Info 251  [19:41:28.242] collectAutoImports: 18.05883502960205
+Info 252  [19:41:28.242] getCompletionData: Semantic work: 30.04069709777832
+Info 253  [19:41:28.249] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 6.558432102203369
+Info 254  [19:41:28.307] Starting updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json
+Info 255  [19:41:28.310] Finishing updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json Version: 29 structureChanged: false structureIsReused:: Completely Elapsed: 2.846796989440918ms
+Info 256  [19:41:28.310] Different program with same set of files
+Info 257  [19:41:28.310] getCompletionData: Get current token: 0.006824970245361328
+Info 258  [19:41:28.310] getCompletionData: Is inside comment: 0.0032868385314941406
+Info 259  [19:41:28.310] getCompletionData: Get previous token: 0.020488977432250977
+Info 260  [19:41:28.310] getCompletionsAtPosition: isCompletionListBlocker: 0.00974893569946289
+Info 261  [19:41:28.314] getExportInfoMap: cache hit
+Info 262  [19:41:28.317] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 40 from cache
+Info 263  [19:41:28.317] collectAutoImports: response is incomplete
+Info 264  [19:41:28.317] collectAutoImports: 2.662407159805298
+Info 265  [19:41:28.317] getCompletionData: Semantic work: 6.510891914367676
+Info 266  [19:41:28.320] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 3.4417359828948975
+Info 267  [19:41:28.865] Starting updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json
+Info 268  [19:41:28.878] Finishing updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json Version: 30 structureChanged: false structureIsReused:: Completely Elapsed: 12.785736799240112ms
+Info 269  [19:41:28.879] Different program with same set of files
+Info 270  [19:41:29.427] forEachExternalModuleToImportFrom autoImportProvider: 0.03222799301147461
+Info 271  [19:41:29.756] Starting updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json
+Info 272  [19:41:29.765] Finishing updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json Version: 31 structureChanged: false structureIsReused:: Completely Elapsed: 8.971360921859741ms
+Info 273  [19:41:29.765] Different program with same set of files
+Info 274  [19:41:29.859] forEachExternalModuleToImportFrom autoImportProvider: 0.01462697982788086
+Info 275  [19:41:30.241] forEachExternalModuleToImportFrom autoImportProvider: 0.010363101959228516
+Info 276  [19:41:50.104] Starting updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json
+Info 277  [19:41:50.136] Finishing updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json Version: 32 structureChanged: false structureIsReused:: Completely Elapsed: 31.300074100494385ms
+Info 278  [19:41:50.136] Different program with same set of files
+Info 279  [19:41:50.180] forEachExternalModuleToImportFrom autoImportProvider: 0.006913185119628906
+Info 280  [19:41:50.567] Starting updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json
+Info 281  [19:41:50.650] Finishing updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json Version: 33 structureChanged: true structureIsReused:: SafeModules Elapsed: 82.81245398521423ms
+Info 282  [19:41:50.650] Different program with same set of files
+Info 283  [19:41:51.220] Starting updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json
+Info 284  [19:41:51.292] Finishing updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json Version: 34 structureChanged: true structureIsReused:: SafeModules Elapsed: 71.75485014915466ms
+Info 285  [19:41:51.292] Different program with same set of files
+Info 286  [20:01:09.577] Starting updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json
+Info 287  [20:01:09.607] Finishing updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json Version: 35 structureChanged: false structureIsReused:: Completely Elapsed: 30.417081832885742ms
+Info 288  [20:01:09.607] Different program with same set of files
+Info 289  [20:01:10.793] Starting updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json
+Info 290  [20:01:10.814] Finishing updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json Version: 36 structureChanged: false structureIsReused:: Completely Elapsed: 21.121047019958496ms
+Info 291  [20:01:10.814] Different program with same set of files
+Info 292  [20:01:11.599] Starting updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json
+Info 293  [20:01:11.614] Finishing updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json Version: 37 structureChanged: false structureIsReused:: Completely Elapsed: 14.845042943954468ms
+Info 294  [20:01:11.614] Different program with same set of files
+Info 295  [20:01:13.234] Starting updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json
+Info 296  [20:01:13.249] Finishing updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json Version: 38 structureChanged: false structureIsReused:: Completely Elapsed: 14.588694095611572ms
+Info 297  [20:01:13.249] Different program with same set of files
+Info 298  [20:01:14.209] Starting updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json
+Info 299  [20:01:14.222] Finishing updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json Version: 39 structureChanged: false structureIsReused:: Completely Elapsed: 12.309538125991821ms
+Info 300  [20:01:14.222] Different program with same set of files
+Info 301  [20:01:14.463] getCompletionData: Get current token: 0.02373814582824707
+Info 302  [20:01:14.463] getCompletionData: Is inside comment: 0.00709986686706543
+Info 303  [20:01:14.463] getCompletionData: Get previous token: 0.045153141021728516
+Info 304  [20:01:14.463] getCompletionsAtPosition: isCompletionListBlocker: 0.21507000923156738
+Info 305  [20:01:14.467] getExportInfoMap: cache miss or empty; calculating new results
+Info 306  [20:01:14.492] forEachExternalModuleToImportFrom autoImportProvider: 0.10623407363891602
+Info 307  [20:01:14.492] getExportInfoMap: done in 24.267240047454834 ms
+Info 308  [20:01:14.517] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 260 from cache
+Info 309  [20:01:14.517] collectAutoImports: response is incomplete
+Info 310  [20:01:14.517] collectAutoImports: 25.168620109558105
+Info 311  [20:01:14.517] getCompletionData: Semantic work: 54.09095907211304
+Info 312  [20:01:14.528] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 9.891180038452148
+Info 313  [20:01:14.586] Starting updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json
+Info 314  [20:01:14.590] Finishing updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json Version: 40 structureChanged: false structureIsReused:: Completely Elapsed: 4.14034104347229ms
+Info 315  [20:01:14.591] Different program with same set of files
+Info 316  [20:01:14.591] getCompletionData: Get current token: 0.011926889419555664
+Info 317  [20:01:14.591] getCompletionData: Is inside comment: 0.0040509700775146484
+Info 318  [20:01:14.591] getCompletionData: Get previous token: 0.048596858978271484
+Info 319  [20:01:14.591] getCompletionsAtPosition: isCompletionListBlocker: 0.003582000732421875
+Info 320  [20:01:14.593] getExportInfoMap: cache hit
+Info 321  [20:01:14.597] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 40 from cache
+Info 322  [20:01:14.598] collectAutoImports: response is incomplete
+Info 323  [20:01:14.598] collectAutoImports: 4.650301933288574
+Info 324  [20:01:14.598] getCompletionData: Semantic work: 6.636074066162109
+Info 325  [20:01:14.616] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 9.768810033798218
+Info 326  [20:01:15.071] Starting updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json
+Info 327  [20:01:15.102] Finishing updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json Version: 41 structureChanged: false structureIsReused:: Completely Elapsed: 31.251837968826294ms
+Info 328  [20:01:15.102] Different program with same set of files
+Info 329  [20:01:15.553] Starting updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json
+Info 330  [20:01:15.558] Finishing updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json Version: 42 structureChanged: false structureIsReused:: Completely Elapsed: 5.496898174285889ms
+Info 331  [20:01:15.558] Different program with same set of files
+Info 332  [20:01:15.559] getCompletionData: Get current token: 0.05818605422973633
+Info 333  [20:01:15.559] getCompletionData: Is inside comment: 0.011996984481811523
+Info 334  [20:01:15.559] getCompletionData: Get previous token: 0.1288900375366211
+Info 335  [20:01:15.559] getCompletionsAtPosition: isCompletionListBlocker: 0.004579067230224609
+Info 336  [20:01:15.563] getExportInfoMap: cache hit
+Info 337  [20:01:15.571] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 73 from cache
+Info 338  [20:01:15.571] collectAutoImports: response is incomplete
+Info 339  [20:01:15.571] collectAutoImports: 8.076335191726685
+Info 340  [20:01:15.572] getCompletionData: Semantic work: 12.020457983016968
+Info 341  [20:01:15.591] forEachExternalModuleToImportFrom autoImportProvider: 0.009034872055053711
+Info 342  [20:01:15.602] getCompletionData: Get current token: 0.016357898712158203
+Info 343  [20:01:15.602] getCompletionData: Is inside comment: 0.007866859436035156
+Info 344  [20:01:15.602] getCompletionData: Get previous token: 0.05175900459289551
+Info 345  [20:01:15.602] getCompletionsAtPosition: isCompletionListBlocker: 0.0048978328704833984
+Info 346  [20:01:15.605] getExportInfoMap: cache hit
+Info 347  [20:01:15.607] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 73 from cache
+Info 348  [20:01:15.607] collectAutoImports: response is incomplete
+Info 349  [20:01:15.607] collectAutoImports: 1.7172789573669434
+Info 350  [20:01:15.607] getCompletionData: Semantic work: 4.243333101272583
+Info 351  [20:01:15.610] forEachExternalModuleToImportFrom autoImportProvider: 0.009534120559692383
+Info 352  [20:01:15.807] Starting updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json
+Info 353  [20:01:15.876] Finishing updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json Version: 43 structureChanged: true structureIsReused:: SafeModules Elapsed: 68.83982396125793ms
+Info 354  [20:01:15.876] Different program with same set of files
+Info 355  [20:01:16.379] Starting updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json
+Info 356  [20:01:16.397] Finishing updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json Version: 44 structureChanged: false structureIsReused:: Completely Elapsed: 18.076448917388916ms
+Info 357  [20:01:16.397] Different program with same set of files
+Info 358  [20:01:17.707] Starting updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json
+Info 359  [20:01:17.730] Finishing updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json Version: 45 structureChanged: false structureIsReused:: Completely Elapsed: 22.90143585205078ms
+Info 360  [20:01:17.730] Different program with same set of files
+Info 361  [20:01:17.733] getCompletionData: Get current token: 0.07361292839050293
+Info 362  [20:01:17.733] getCompletionData: Is inside comment: 0.018146038055419922
+Info 363  [20:01:17.733] getCompletionData: Get previous token: 0.350938081741333
+Info 364  [20:01:17.734] getCompletionsAtPosition: isCompletionListBlocker: 0.25780797004699707
+Info 365  [20:01:17.759] getCompletionData: Semantic work: 24.622829914093018
+Info 366  [20:01:17.762] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 2.7276220321655273
+Info 367  [20:01:19.169] Starting updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json
+Info 368  [20:01:19.186] Finishing updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json Version: 46 structureChanged: false structureIsReused:: Completely Elapsed: 16.92777991294861ms
+Info 369  [20:01:19.186] Different program with same set of files
+Info 370  [20:01:19.569] Starting updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json
+Info 371  [20:01:19.586] Finishing updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json Version: 47 structureChanged: false structureIsReused:: Completely Elapsed: 16.50166606903076ms
+Info 372  [20:01:19.586] Different program with same set of files
+Info 373  [20:01:19.996] Starting updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json
+Info 374  [20:01:20.020] Finishing updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json Version: 48 structureChanged: false structureIsReused:: Completely Elapsed: 24.16786003112793ms
+Info 375  [20:01:20.020] Different program with same set of files
+Info 376  [20:01:20.178] Starting updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json
+Info 377  [20:01:20.202] Finishing updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json Version: 49 structureChanged: false structureIsReused:: Completely Elapsed: 23.31405997276306ms
+Info 378  [20:01:20.202] Different program with same set of files
+Info 379  [20:01:20.685] Starting updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json
+Info 380  [20:01:20.708] Finishing updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json Version: 50 structureChanged: false structureIsReused:: Completely Elapsed: 22.050814151763916ms
+Info 381  [20:01:20.708] Different program with same set of files
+Info 382  [20:01:21.821] Starting updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json
+Info 383  [20:01:21.843] Finishing updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json Version: 51 structureChanged: false structureIsReused:: Completely Elapsed: 21.25827717781067ms
+Info 384  [20:01:21.843] Different program with same set of files
+Info 385  [20:01:23.730] Starting updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json
+Info 386  [20:01:23.743] Finishing updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json Version: 52 structureChanged: false structureIsReused:: Completely Elapsed: 12.914788007736206ms
+Info 387  [20:01:23.743] Different program with same set of files
+Info 388  [20:01:25.041] Starting updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json
+Info 389  [20:01:25.054] Finishing updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json Version: 53 structureChanged: false structureIsReused:: Completely Elapsed: 13.469405174255371ms
+Info 390  [20:01:25.054] Different program with same set of files
+Info 391  [20:01:25.056] getCompletionData: Get current token: 0.06936311721801758
+Info 392  [20:01:25.056] getCompletionData: Is inside comment: 0.017344951629638672
+Info 393  [20:01:25.057] getCompletionData: Get previous token: 0.17394399642944336
+Info 394  [20:01:25.057] getCompletionsAtPosition: isCompletionListBlocker: 0.049337148666381836
+Info 395  [20:01:25.057] Returning an empty list because completion was requested in an invalid position.
+Info 396  [20:01:25.096] getCompletionData: Get current token: 0.014341115951538086
+Info 397  [20:01:25.096] getCompletionData: Is inside comment: 0.0037539005279541016
+Info 398  [20:01:25.096] getCompletionData: Get previous token: 0.0279390811920166
+Info 399  [20:01:25.097] getCompletionsAtPosition: isCompletionListBlocker: 0.012436151504516602
+Info 400  [20:01:25.097] Returning an empty list because completion was requested in an invalid position.
+Info 401  [20:01:25.098] getCompletionData: Get current token: 0.01357412338256836
+Info 402  [20:01:25.098] getCompletionData: Is inside comment: 0.0031828880310058594
+Info 403  [20:01:25.098] getCompletionData: Get previous token: 0.024806976318359375
+Info 404  [20:01:25.098] getCompletionsAtPosition: isCompletionListBlocker: 0.013003110885620117
+Info 405  [20:01:25.098] Returning an empty list because completion was requested in an invalid position.
+Info 406  [20:01:25.771] Starting updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json
+Info 407  [20:01:25.785] Finishing updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json Version: 54 structureChanged: false structureIsReused:: Completely Elapsed: 13.053623914718628ms
+Info 408  [20:01:25.785] Different program with same set of files
+Info 409  [20:01:25.786] getCompletionData: Get current token: 0.07328200340270996
+Info 410  [20:01:25.787] getCompletionData: Is inside comment: 0.015249967575073242
+Info 411  [20:01:25.787] getCompletionData: Get previous token: 0.16234993934631348
+Info 412  [20:01:25.787] getCompletionsAtPosition: isCompletionListBlocker: 0.048948049545288086
+Info 413  [20:01:25.787] Returning an empty list because completion was requested in an invalid position.
+Info 414  [20:01:25.829] getCompletionData: Get current token: 0.015285015106201172
+Info 415  [20:01:25.829] getCompletionData: Is inside comment: 0.003620147705078125
+Info 416  [20:01:25.829] getCompletionData: Get previous token: 0.027998924255371094
+Info 417  [20:01:25.829] getCompletionsAtPosition: isCompletionListBlocker: 0.01835489273071289
+Info 418  [20:01:25.829] Returning an empty list because completion was requested in an invalid position.
+Info 419  [20:01:25.831] getCompletionData: Get current token: 0.03055095672607422
+Info 420  [20:01:25.831] getCompletionData: Is inside comment: 0.005664825439453125
+Info 421  [20:01:25.831] getCompletionData: Get previous token: 0.05017685890197754
+Info 422  [20:01:25.831] getCompletionsAtPosition: isCompletionListBlocker: 0.018475055694580078
+Info 423  [20:01:25.831] Returning an empty list because completion was requested in an invalid position.
+Info 424  [20:01:26.247] Starting updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json
+Info 425  [20:01:26.251] Finishing updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json Version: 55 structureChanged: false structureIsReused:: Completely Elapsed: 3.9126980304718018ms
+Info 426  [20:01:26.251] Different program with same set of files
+Info 427  [20:01:26.580] Starting updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json
+Info 428  [20:01:26.602] Finishing updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json Version: 56 structureChanged: false structureIsReused:: Completely Elapsed: 22.426378965377808ms
+Info 429  [20:01:26.603] Different program with same set of files
+Info 430  [20:01:28.918] DirectoryWatcher:: Triggered with /home/gpavlovic/sources/remix-run-intro :: WatchInfo: /home/gpavlovic/sources/remix-run-intro 1 undefined Config: /home/gpavlovic/sources/remix-run-intro/tsconfig.json WatchType: Wild card directory
+Info 431  [20:01:28.921] Elapsed:: 2.205280065536499ms DirectoryWatcher:: Triggered with /home/gpavlovic/sources/remix-run-intro :: WatchInfo: /home/gpavlovic/sources/remix-run-intro 1 undefined Config: /home/gpavlovic/sources/remix-run-intro/tsconfig.json WatchType: Wild card directory
+Info 432  [20:01:29.183] Starting updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json
+Info 433  [20:01:29.183] Finishing updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json Version: 57 structureChanged: false structureIsReused:: Completely Elapsed: 0.47795891761779785ms
+Info 434  [20:01:31.420] Before ensureProjectForOpenFiles:
+Info 435  [20:01:31.420] After ensureProjectForOpenFiles:
+Info 436  [20:01:31.420] got projects updated in background, updating diagnostics for /home/gpavlovic/sources/remix-run-intro/app/routes/index.tsx,/home/gpavlovic/sources/remix-run-intro/app/entry.client.tsx,/home/gpavlovic/sources/remix-run-intro/app/entry.server.tsx,/home/gpavlovic/sources/remix-run-intro/app/root.tsx
+Info 437  [20:02:00.003] Search path: /home/gpavlovic/sources/remix-run-intro/app/routes/posts
+Info 438  [20:02:00.005] For info: /home/gpavlovic/sources/remix-run-intro/app/routes/posts/index.tsx :: Config file name: /home/gpavlovic/sources/remix-run-intro/tsconfig.json
+Info 439  [20:02:00.019] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 440  [20:02:00.827] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 1 structureChanged: true structureIsReused:: Not Elapsed: 808.5061991214752ms
+Info 441  [20:02:00.827] Project '/dev/null/inferredProject1*' (Inferred)
+Info 442  [20:02:00.827] 	Files (126)
+
+Info 443  [20:02:00.827] -----------------------------------------------
+Info 444  [20:02:00.832] Starting updateGraphWorker: Project: /dev/null/autoImportProviderProject2*
+Info 445  [20:02:00.895] Finishing updateGraphWorker: Project: /dev/null/autoImportProviderProject2* Version: 1 structureChanged: true structureIsReused:: Not Elapsed: 63.04638195037842ms
+Info 446  [20:02:00.895] Project '/dev/null/autoImportProviderProject2*' (AutoImportProvider)
+Info 447  [20:02:00.895] 	Files (114)
+
+Info 448  [20:02:00.895] -----------------------------------------------
+Info 449  [20:02:01.907] DirectoryWatcher:: Triggered with /home/gpavlovic/sources/remix-run-intro :: WatchInfo: /home/gpavlovic/sources/remix-run-intro 1 undefined Config: /home/gpavlovic/sources/remix-run-intro/tsconfig.json WatchType: Wild card directory
+Info 450  [20:02:01.910] Elapsed:: 2.6678500175476074ms DirectoryWatcher:: Triggered with /home/gpavlovic/sources/remix-run-intro :: WatchInfo: /home/gpavlovic/sources/remix-run-intro 1 undefined Config: /home/gpavlovic/sources/remix-run-intro/tsconfig.json WatchType: Wild card directory
+Info 451  [20:02:01.910] DirectoryWatcher:: Triggered with /home/gpavlovic/sources/remix-run-intro/app :: WatchInfo: /home/gpavlovic/sources/remix-run-intro/app 1 undefined Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json WatchType: Failed Lookup Locations
+Info 452  [20:02:01.911] Elapsed:: 0.9293351173400879ms DirectoryWatcher:: Triggered with /home/gpavlovic/sources/remix-run-intro/app :: WatchInfo: /home/gpavlovic/sources/remix-run-intro/app 1 undefined Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json WatchType: Failed Lookup Locations
+Info 453  [20:02:02.178] Starting updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json
+Info 454  [20:02:02.226] Finishing updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json Version: 58 structureChanged: true structureIsReused:: Not Elapsed: 48.44956302642822ms
+Info 455  [20:02:02.226] Project '/home/gpavlovic/sources/remix-run-intro/tsconfig.json' (Configured)
+Info 456  [20:02:02.226] 	Files (185)
+
+Info 457  [20:02:02.226] -----------------------------------------------
+Info 458  [20:02:02.226] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
+Info 459  [20:02:02.226] 	Files (1)
+
+Info 460  [20:02:02.226] -----------------------------------------------
+Info 461  [20:02:04.664] Before ensureProjectForOpenFiles:
+Info 462  [20:02:04.664] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 463  [20:02:04.684] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 2 structureChanged: true structureIsReused:: Not Elapsed: 18.98191499710083ms
+Info 464  [20:02:04.684] Project '/dev/null/inferredProject1*' (Inferred)
+Info 465  [20:02:04.684] 	Files (0)
+
+Info 466  [20:02:04.684] -----------------------------------------------
+Info 467  [20:02:04.684] Project '/dev/null/autoImportProviderProject2*' (AutoImportProvider)
+Info 468  [20:02:04.684] 	Files (114)
+
+Info 469  [20:02:04.684] -----------------------------------------------
+Info 470  [20:02:04.686] After ensureProjectForOpenFiles:
+Info 471  [20:02:04.686] got projects updated in background, updating diagnostics for /home/gpavlovic/sources/remix-run-intro/app/routes/index.tsx,/home/gpavlovic/sources/remix-run-intro/app/entry.client.tsx,/home/gpavlovic/sources/remix-run-intro/app/entry.server.tsx,/home/gpavlovic/sources/remix-run-intro/app/root.tsx,/home/gpavlovic/sources/remix-run-intro/app/routes/posts/index.tsx
+Info 472  [20:02:58.324] Starting updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json
+Info 473  [20:02:58.345] Finishing updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json Version: 59 structureChanged: false structureIsReused:: Completely Elapsed: 20.967654943466187ms
+Info 474  [20:02:58.345] Different program with same set of files
+Info 475  [20:02:58.348] getCompletionData: Get current token: 0.009704113006591797
+Info 476  [20:02:58.348] getCompletionData: Is inside comment: 0.026896953582763672
+Info 477  [20:02:58.348] getCompletionData: Get previous token: 0.02536320686340332
+Info 478  [20:02:58.357] Starting updateGraphWorker: Project: /dev/null/autoImportProviderProject1*
+Info 479  [20:02:58.357] Finishing updateGraphWorker: Project: /dev/null/autoImportProviderProject1* Version: 2 structureChanged: false structureIsReused:: Not Elapsed: 0.21210789680480957ms
+Info 480  [20:02:58.358] getExportInfoMap: cache miss or empty; calculating new results
+Info 481  [20:02:58.388] forEachExternalModuleToImportFrom autoImportProvider: 0.13705110549926758
+Info 482  [20:02:58.388] getExportInfoMap: done in 35.889615058898926 ms
+Info 483  [20:02:58.396] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 1 from cache
+Info 484  [20:02:58.396] collectAutoImports: response is incomplete
+Info 485  [20:02:58.396] collectAutoImports: 7.7221410274505615
+Info 486  [20:02:58.396] getCompletionData: Semantic work: 48.36731505393982
+Info 487  [20:02:58.405] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 8.295374870300293
+Info 488  [20:02:58.409] getCompletionData: Get current token: 0.008149862289428711
+Info 489  [20:02:58.409] getCompletionData: Is inside comment: 0.031620025634765625
+Info 490  [20:02:58.409] getCompletionData: Get previous token: 0.03477811813354492
+Info 491  [20:02:58.411] getExportInfoMap: cache hit
+Info 492  [20:02:58.415] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 1 from cache
+Info 493  [20:02:58.415] collectAutoImports: response is incomplete
+Info 494  [20:02:58.415] collectAutoImports: 4.01166296005249
+Info 495  [20:02:58.415] getCompletionData: Semantic work: 5.901304006576538
+Info 496  [20:02:58.424] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 8.603154182434082
+Info 497  [20:02:58.428] getCompletionData: Get current token: 0.0036110877990722656
+Info 498  [20:02:58.428] getCompletionData: Is inside comment: 0.021541118621826172
+Info 499  [20:02:58.428] getCompletionData: Get previous token: 0.012542963027954102
+Info 500  [20:02:58.430] getExportInfoMap: cache hit
+Info 501  [20:02:58.432] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 1 from cache
+Info 502  [20:02:58.432] collectAutoImports: response is incomplete
+Info 503  [20:02:58.432] collectAutoImports: 2.4107370376586914
+Info 504  [20:02:58.432] getCompletionData: Semantic work: 4.53105616569519
+Info 505  [20:02:58.442] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 8.381916046142578
+Info 506  [20:02:58.445] Starting updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json
+Info 507  [20:02:58.450] Finishing updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json Version: 60 structureChanged: false structureIsReused:: Completely Elapsed: 5.28903603553772ms
+Info 508  [20:02:58.450] Different program with same set of files
+Info 509  [20:02:59.272] Starting updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json
+Info 510  [20:02:59.291] Finishing updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json Version: 61 structureChanged: false structureIsReused:: Completely Elapsed: 19.264909029006958ms
+Info 511  [20:02:59.291] Different program with same set of files
+Info 512  [20:02:59.293] getCompletionData: Get current token: 0.02687692642211914
+Info 513  [20:02:59.293] getCompletionData: Is inside comment: 0.13024497032165527
+Info 514  [20:02:59.294] getCompletionData: Get previous token: 0.20659303665161133
+Info 515  [20:02:59.297] getCompletionsAtPosition: isCompletionListBlocker: 1.394841194152832
+Info 516  [20:02:59.302] getExportInfoMap: cache hit
+Info 517  [20:02:59.312] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 2 from cache
+Info 518  [20:02:59.312] collectAutoImports: response is incomplete
+Info 519  [20:02:59.312] collectAutoImports: 9.409111022949219
+Info 520  [20:02:59.312] getCompletionData: Semantic work: 15.013952016830444
+Info 521  [20:02:59.324] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 12.101280927658081
+Info 522  [20:02:59.327] getCompletionData: Get current token: 0.008177042007446289
+Info 523  [20:02:59.327] getCompletionData: Is inside comment: 0.022915124893188477
+Info 524  [20:02:59.327] getCompletionData: Get previous token: 0.03588986396789551
+Info 525  [20:02:59.327] getCompletionsAtPosition: isCompletionListBlocker: 0.013597965240478516
+Info 526  [20:02:59.330] getExportInfoMap: cache hit
+Info 527  [20:02:59.333] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 2 from cache
+Info 528  [20:02:59.333] collectAutoImports: response is incomplete
+Info 529  [20:02:59.333] collectAutoImports: 2.683779001235962
+Info 530  [20:02:59.333] getCompletionData: Semantic work: 6.241714000701904
+Info 531  [20:02:59.350] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 15.552261114120483
+Info 532  [20:02:59.352] getCompletionData: Get current token: 0.002691030502319336
+Info 533  [20:02:59.352] getCompletionData: Is inside comment: 0.010993003845214844
+Info 534  [20:02:59.352] getCompletionData: Get previous token: 0.013787984848022461
+Info 535  [20:02:59.352] getCompletionsAtPosition: isCompletionListBlocker: 0.008520126342773438
+Info 536  [20:02:59.353] getExportInfoMap: cache hit
+Info 537  [20:02:59.355] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 2 from cache
+Info 538  [20:02:59.355] collectAutoImports: response is incomplete
+Info 539  [20:02:59.355] collectAutoImports: 2.1792478561401367
+Info 540  [20:02:59.355] getCompletionData: Semantic work: 3.416562080383301
+Info 541  [20:02:59.362] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 6.567823886871338
+Info 542  [20:02:59.364] Starting updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json
+Info 543  [20:02:59.369] Finishing updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json Version: 62 structureChanged: false structureIsReused:: Completely Elapsed: 4.778584957122803ms
+Info 544  [20:02:59.369] Different program with same set of files
+Info 545  [20:02:59.641] Starting updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json
+Info 546  [20:02:59.664] Finishing updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json Version: 63 structureChanged: false structureIsReused:: Completely Elapsed: 23.61251401901245ms
+Info 547  [20:02:59.665] Different program with same set of files
+Info 548  [20:03:00.114] Starting updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json
+Info 549  [20:03:00.133] Finishing updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json Version: 64 structureChanged: false structureIsReused:: Completely Elapsed: 18.82913303375244ms
+Info 550  [20:03:00.133] Different program with same set of files
+Info 551  [20:03:00.183] Starting updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json
+Info 552  [20:03:00.188] Finishing updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json Version: 65 structureChanged: false structureIsReused:: Completely Elapsed: 4.719902038574219ms
+Info 553  [20:03:00.188] Different program with same set of files
+Info 554  [20:03:00.449] Starting updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json
+Info 555  [20:03:00.467] Finishing updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json Version: 66 structureChanged: false structureIsReused:: Completely Elapsed: 18.16149616241455ms
+Info 556  [20:03:00.468] Different program with same set of files
+Info 557  [20:03:00.469] getCompletionData: Get current token: 0.016113996505737305
+Info 558  [20:03:00.469] getCompletionData: Is inside comment: 0.09026980400085449
+Info 559  [20:03:00.469] getCompletionData: Get previous token: 0.19509410858154297
+Info 560  [20:03:00.470] getCompletionsAtPosition: isCompletionListBlocker: 0.03735709190368652
+Info 561  [20:03:00.481] getExportInfoMap: cache hit
+Info 562  [20:03:00.492] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 1 from cache
+Info 563  [20:03:00.492] collectAutoImports: response is incomplete
+Info 564  [20:03:00.492] collectAutoImports: 10.715950965881348
+Info 565  [20:03:00.492] getCompletionData: Semantic work: 22.54610586166382
+Info 566  [20:03:00.508] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 13.391284942626953
+Info 567  [20:03:00.515] getCompletionData: Get current token: 0.0032339096069335938
+Info 568  [20:03:00.515] getCompletionData: Is inside comment: 0.014605998992919922
+Info 569  [20:03:00.515] getCompletionData: Get previous token: 0.014889001846313477
+Info 570  [20:03:00.515] getCompletionsAtPosition: isCompletionListBlocker: 0.009974956512451172
+Info 571  [20:03:00.520] getExportInfoMap: cache hit
+Info 572  [20:03:00.522] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 1 from cache
+Info 573  [20:03:00.522] collectAutoImports: response is incomplete
+Info 574  [20:03:00.522] collectAutoImports: 2.0709590911865234
+Info 575  [20:03:00.522] getCompletionData: Semantic work: 6.308259963989258
+Info 576  [20:03:00.536] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 13.951138973236084
+Info 577  [20:03:00.540] getCompletionData: Get current token: 0.003000974655151367
+Info 578  [20:03:00.540] getCompletionData: Is inside comment: 0.01291799545288086
+Info 579  [20:03:00.540] getCompletionData: Get previous token: 0.01518702507019043
+Info 580  [20:03:00.540] getCompletionsAtPosition: isCompletionListBlocker: 0.00984501838684082
+Info 581  [20:03:00.541] getExportInfoMap: cache hit
+Info 582  [20:03:00.544] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 1 from cache
+Info 583  [20:03:00.544] collectAutoImports: response is incomplete
+Info 584  [20:03:00.544] collectAutoImports: 2.1749508380889893
+Info 585  [20:03:00.544] getCompletionData: Semantic work: 3.8202450275421143
+Info 586  [20:03:00.550] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 5.816884994506836
+Info 587  [20:03:00.557] Starting updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json
+Info 588  [20:03:00.561] Finishing updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json Version: 67 structureChanged: false structureIsReused:: Completely Elapsed: 3.211167097091675ms
+Info 589  [20:03:00.561] Different program with same set of files
+Info 590  [20:03:00.564] Starting updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json
+Info 591  [20:03:00.572] Finishing updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json Version: 68 structureChanged: false structureIsReused:: Completely Elapsed: 8.017693042755127ms
+Info 592  [20:03:00.572] Different program with same set of files
+Info 593  [20:03:01.285] Starting updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json
+Info 594  [20:03:01.301] Finishing updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json Version: 69 structureChanged: false structureIsReused:: Completely Elapsed: 15.67506194114685ms
+Info 595  [20:03:01.301] Different program with same set of files
+Info 596  [20:03:01.302] getCompletionData: Get current token: 0.014262914657592773
+Info 597  [20:03:01.303] getCompletionData: Is inside comment: 0.0821831226348877
+Info 598  [20:03:01.303] getCompletionData: Get previous token: 0.094635009765625
+Info 599  [20:03:01.303] getCompletionsAtPosition: isCompletionListBlocker: 0.009721994400024414
+Info 600  [20:03:01.303] Returning an empty list because completion was requested in an invalid position.
+Info 601  [20:03:01.319] getCompletionData: Get current token: 0.006345033645629883
+Info 602  [20:03:01.319] getCompletionData: Is inside comment: 0.024034976959228516
+Info 603  [20:03:01.319] getCompletionData: Get previous token: 0.031161069869995117
+Info 604  [20:03:01.319] getCompletionsAtPosition: isCompletionListBlocker: 0.0037059783935546875
+Info 605  [20:03:01.319] Returning an empty list because completion was requested in an invalid position.
+Info 606  [20:03:01.321] getCompletionData: Get current token: 0.005494117736816406
+Info 607  [20:03:01.321] getCompletionData: Is inside comment: 0.02355504035949707
+Info 608  [20:03:01.321] getCompletionData: Get previous token: 0.030923128128051758
+Info 609  [20:03:01.321] getCompletionsAtPosition: isCompletionListBlocker: 0.0038840770721435547
+Info 610  [20:03:01.321] Returning an empty list because completion was requested in an invalid position.
+Info 611  [20:03:02.197] Starting updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json
+Info 612  [20:03:02.210] Finishing updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json Version: 70 structureChanged: false structureIsReused:: Completely Elapsed: 13.299625158309937ms
+Info 613  [20:03:02.210] Different program with same set of files
+Info 614  [20:03:02.212] getCompletionData: Get current token: 0.01500701904296875
+Info 615  [20:03:02.212] getCompletionData: Is inside comment: 0.059068918228149414
+Info 616  [20:03:02.212] getCompletionData: Get previous token: 0.07824516296386719
+Info 617  [20:03:02.212] getCompletionsAtPosition: isCompletionListBlocker: 0.00911402702331543
+Info 618  [20:03:02.213] Returning an empty list because completion was requested in an invalid position.
+Info 619  [20:03:02.224] getCompletionData: Get current token: 0.009501934051513672
+Info 620  [20:03:02.224] getCompletionData: Is inside comment: 0.039681196212768555
+Info 621  [20:03:02.224] getCompletionData: Get previous token: 0.05311298370361328
+Info 622  [20:03:02.224] getCompletionsAtPosition: isCompletionListBlocker: 0.006524801254272461
+Info 623  [20:03:02.224] Returning an empty list because completion was requested in an invalid position.
+Info 624  [20:03:02.260] getCompletionData: Get current token: 0.0033500194549560547
+Info 625  [20:03:02.261] getCompletionData: Is inside comment: 0.01369786262512207
+Info 626  [20:03:02.261] getCompletionData: Get previous token: 0.01580500602722168
+Info 627  [20:03:02.261] getCompletionsAtPosition: isCompletionListBlocker: 0.003454923629760742
+Info 628  [20:03:02.261] Returning an empty list because completion was requested in an invalid position.
+Info 629  [20:03:02.383] Starting updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json
+Info 630  [20:03:02.397] Finishing updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json Version: 71 structureChanged: false structureIsReused:: Completely Elapsed: 13.18328595161438ms
+Info 631  [20:03:02.397] Different program with same set of files
+Info 632  [20:03:03.161] Starting updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json
+Info 633  [20:03:03.167] Finishing updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json Version: 72 structureChanged: false structureIsReused:: Completely Elapsed: 5.9247400760650635ms
+Info 634  [20:03:03.167] Different program with same set of files
+Info 635  [20:03:05.057] Starting updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json
+Info 636  [20:03:05.071] Finishing updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json Version: 73 structureChanged: false structureIsReused:: Completely Elapsed: 13.612462043762207ms
+Info 637  [20:03:05.071] Different program with same set of files
+Info 638  [20:03:06.452] Starting updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json
+Info 639  [20:03:06.469] Finishing updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json Version: 74 structureChanged: false structureIsReused:: Completely Elapsed: 17.330817937850952ms
+Info 640  [20:03:06.469] Different program with same set of files
+Info 641  [20:03:06.471] getCompletionData: Get current token: 0.03895902633666992
+Info 642  [20:03:06.472] getCompletionData: Is inside comment: 0.09119796752929688
+Info 643  [20:03:06.472] getCompletionData: Get previous token: 0.10321807861328125
+Info 644  [20:03:06.472] getCompletionsAtPosition: isCompletionListBlocker: 0.01147603988647461
+Info 645  [20:03:06.482] getExportInfoMap: cache hit
+Info 646  [20:03:06.512] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 261 from cache
+Info 647  [20:03:06.512] collectAutoImports: response is incomplete
+Info 648  [20:03:06.512] collectAutoImports: 30.430526971817017
+Info 649  [20:03:06.512] getCompletionData: Semantic work: 40.48765802383423
+Info 650  [20:03:06.522] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 8.374670028686523
+Info 651  [20:03:06.525] getCompletionData: Get current token: 0.005717039108276367
+Info 652  [20:03:06.525] getCompletionData: Is inside comment: 0.019778013229370117
+Info 653  [20:03:06.525] getCompletionData: Get previous token: 0.019445180892944336
+Info 654  [20:03:06.525] getCompletionsAtPosition: isCompletionListBlocker: 0.0025420188903808594
+Info 655  [20:03:06.527] getExportInfoMap: cache hit
+Info 656  [20:03:06.545] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 261 from cache
+Info 657  [20:03:06.545] collectAutoImports: response is incomplete
+Info 658  [20:03:06.545] collectAutoImports: 17.897431135177612
+Info 659  [20:03:06.545] getCompletionData: Semantic work: 19.84849500656128
+Info 660  [20:03:06.559] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 14.029684066772461
+Info 661  [20:03:06.563] getCompletionData: Get current token: 0.006468057632446289
+Info 662  [20:03:06.563] getCompletionData: Is inside comment: 0.016829967498779297
+Info 663  [20:03:06.564] getCompletionData: Get previous token: 0.0197598934173584
+Info 664  [20:03:06.564] getCompletionsAtPosition: isCompletionListBlocker: 0.0031490325927734375
+Info 665  [20:03:06.566] getExportInfoMap: cache hit
+Info 666  [20:03:06.575] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 261 from cache
+Info 667  [20:03:06.576] collectAutoImports: response is incomplete
+Info 668  [20:03:06.576] collectAutoImports: 9.312762022018433
+Info 669  [20:03:06.576] getCompletionData: Semantic work: 11.971207857131958
+Info 670  [20:03:06.581] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 4.1442530155181885
+Info 671  [20:03:07.197] Starting updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json
+Info 672  [20:03:07.209] Finishing updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json Version: 75 structureChanged: false structureIsReused:: Completely Elapsed: 12.188660860061646ms
+Info 673  [20:03:07.209] Different program with same set of files
+Info 674  [20:03:08.083] Starting updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json
+Info 675  [20:03:08.093] Finishing updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json Version: 76 structureChanged: false structureIsReused:: Completely Elapsed: 9.836854934692383ms
+Info 676  [20:03:08.093] Different program with same set of files
+Info 677  [20:03:10.426] Starting updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json
+Info 678  [20:03:10.448] Finishing updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json Version: 77 structureChanged: false structureIsReused:: Completely Elapsed: 21.290574073791504ms
+Info 679  [20:03:10.448] Different program with same set of files
+Info 680  [20:03:10.450] getCompletionData: Get current token: 0.05223894119262695
+Info 681  [20:03:10.450] getCompletionData: Is inside comment: 0.16125798225402832
+Info 682  [20:03:10.450] getCompletionData: Get previous token: 0.22848105430603027
+Info 683  [20:03:10.451] getCompletionsAtPosition: isCompletionListBlocker: 0.16218304634094238
+Info 684  [20:03:10.458] getExportInfoMap: cache hit
+Info 685  [20:03:10.465] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 0 from cache
+Info 686  [20:03:10.465] collectAutoImports: response is complete
+Info 687  [20:03:10.465] collectAutoImports: 6.033405065536499
+Info 688  [20:03:10.465] getCompletionData: Semantic work: 14.037868022918701
+Info 689  [20:03:10.474] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 9.538137197494507
+Info 690  [20:03:10.523] getCompletionData: Get current token: 0.0072438716888427734
+Info 691  [20:03:10.523] getCompletionData: Is inside comment: 0.017854928970336914
+Info 692  [20:03:10.523] getCompletionData: Get previous token: 0.02333211898803711
+Info 693  [20:03:10.523] getCompletionsAtPosition: isCompletionListBlocker: 0.0042231082916259766
+Info 694  [20:03:10.525] getExportInfoMap: cache hit
+Info 695  [20:03:10.527] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 0 from cache
+Info 696  [20:03:10.527] collectAutoImports: response is complete
+Info 697  [20:03:10.527] collectAutoImports: 2.5218520164489746
+Info 698  [20:03:10.527] getCompletionData: Semantic work: 4.058182001113892
+Info 699  [20:03:10.535] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 6.723021030426025
+Info 700  [20:03:10.537] getCompletionData: Get current token: 0.0066149234771728516
+Info 701  [20:03:10.537] getCompletionData: Is inside comment: 0.01823902130126953
+Info 702  [20:03:10.537] getCompletionData: Get previous token: 0.02454686164855957
+Info 703  [20:03:10.537] getCompletionsAtPosition: isCompletionListBlocker: 0.006095170974731445
+Info 704  [20:03:10.540] getExportInfoMap: cache hit
+Info 705  [20:03:10.542] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 0 from cache
+Info 706  [20:03:10.542] collectAutoImports: response is complete
+Info 707  [20:03:10.542] collectAutoImports: 1.8669848442077637
+Info 708  [20:03:10.542] getCompletionData: Semantic work: 4.6611809730529785
+Info 709  [20:03:10.546] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 3.607131004333496
+Info 710  [20:03:10.548] Starting updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json
+Info 711  [20:03:10.551] Finishing updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json Version: 78 structureChanged: false structureIsReused:: Completely Elapsed: 3.3682360649108887ms
+Info 712  [20:03:10.551] Different program with same set of files
+Info 713  [20:03:11.135] Starting updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json
+Info 714  [20:03:11.140] Finishing updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json Version: 79 structureChanged: false structureIsReused:: Completely Elapsed: 4.065338134765625ms
+Info 715  [20:03:11.140] Different program with same set of files
+Info 716  [20:03:11.586] Starting updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json
+Info 717  [20:03:11.593] Finishing updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json Version: 80 structureChanged: false structureIsReused:: Completely Elapsed: 6.341047048568726ms
+Info 718  [20:03:11.593] Different program with same set of files
+Info 719  [20:03:11.593] Starting updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json
+Info 720  [20:03:11.599] Finishing updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json Version: 81 structureChanged: false structureIsReused:: Completely Elapsed: 5.22875189781189ms
+Info 721  [20:03:11.599] Different program with same set of files
+Info 722  [20:03:12.017] Starting updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json
+Info 723  [20:03:12.032] Finishing updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json Version: 82 structureChanged: false structureIsReused:: Completely Elapsed: 14.950093030929565ms
+Info 724  [20:03:12.032] Different program with same set of files
+Info 725  [20:03:12.035] getCompletionData: Get current token: 0.03928422927856445
+Info 726  [20:03:12.035] getCompletionData: Is inside comment: 0.017588138580322266
+Info 727  [20:03:12.035] getCompletionData: Get previous token: 0.1972489356994629
+Info 728  [20:03:12.035] getCompletionsAtPosition: isCompletionListBlocker: 0.013762950897216797
+Info 729  [20:03:12.049] getExportInfoMap: cache hit
+Info 730  [20:03:12.062] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 0 from cache
+Info 731  [20:03:12.062] collectAutoImports: response is complete
+Info 732  [20:03:12.062] collectAutoImports: 12.939172983169556
+Info 733  [20:03:12.062] getCompletionData: Semantic work: 27.1198890209198
+Info 734  [20:03:12.094] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 6.777435779571533
+Info 735  [20:03:12.118] getCompletionData: Get current token: 0.0067560672760009766
+Info 736  [20:03:12.118] getCompletionData: Is inside comment: 0.0033690929412841797
+Info 737  [20:03:12.118] getCompletionData: Get previous token: 0.03355884552001953
+Info 738  [20:03:12.118] getCompletionsAtPosition: isCompletionListBlocker: 0.006350994110107422
+Info 739  [20:03:12.120] getExportInfoMap: cache hit
+Info 740  [20:03:12.122] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 0 from cache
+Info 741  [20:03:12.122] collectAutoImports: response is complete
+Info 742  [20:03:12.122] collectAutoImports: 1.7738020420074463
+Info 743  [20:03:12.122] getCompletionData: Semantic work: 3.6802828311920166
+Info 744  [20:03:12.133] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 9.849538803100586
+Info 745  [20:03:12.138] getCompletionData: Get current token: 0.011512994766235352
+Info 746  [20:03:12.138] getCompletionData: Is inside comment: 0.003662109375
+Info 747  [20:03:12.138] getCompletionData: Get previous token: 0.054615020751953125
+Info 748  [20:03:12.138] getCompletionsAtPosition: isCompletionListBlocker: 0.003921031951904297
+Info 749  [20:03:12.140] getExportInfoMap: cache hit
+Info 750  [20:03:12.142] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 0 from cache
+Info 751  [20:03:12.142] collectAutoImports: response is complete
+Info 752  [20:03:12.142] collectAutoImports: 1.8151099681854248
+Info 753  [20:03:12.142] getCompletionData: Semantic work: 4.125967025756836
+Info 754  [20:03:12.148] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 4.123427867889404
+Info 755  [20:03:12.150] Starting updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json
+Info 756  [20:03:12.157] Finishing updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json Version: 83 structureChanged: false structureIsReused:: Completely Elapsed: 6.204030990600586ms
+Info 757  [20:03:12.157] Different program with same set of files
+Info 758  [20:03:12.579] Starting updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json
+Info 759  [20:03:12.593] Finishing updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json Version: 84 structureChanged: false structureIsReused:: Completely Elapsed: 13.80646300315857ms
+Info 760  [20:03:12.593] Different program with same set of files
+Info 761  [20:03:13.070] Starting updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json
+Info 762  [20:03:13.073] Finishing updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json Version: 85 structureChanged: false structureIsReused:: Completely Elapsed: 3.123487949371338ms
+Info 763  [20:03:13.073] Different program with same set of files
+Info 764  [20:03:13.273] getCompletionData: Get current token: 0.03800487518310547
+Info 765  [20:03:13.273] getCompletionData: Is inside comment: 0.020977020263671875
+Info 766  [20:03:13.273] getCompletionData: Get previous token: 0.1262960433959961
+Info 767  [20:03:13.273] getCompletionsAtPosition: isCompletionListBlocker: 0.01500701904296875
+Info 768  [20:03:13.289] getExportInfoMap: cache hit
+Info 769  [20:03:13.317] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 261 from cache
+Info 770  [20:03:13.318] collectAutoImports: response is incomplete
+Info 771  [20:03:13.318] collectAutoImports: 27.864665031433105
+Info 772  [20:03:13.318] getCompletionData: Semantic work: 44.195188999176025
+Info 773  [20:03:13.323] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 5.268251895904541
+Info 774  [20:03:13.717] Starting updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json
+Info 775  [20:03:13.732] Finishing updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json Version: 86 structureChanged: false structureIsReused:: Completely Elapsed: 15.623115062713623ms
+Info 776  [20:03:13.733] Different program with same set of files
+Info 777  [20:03:14.428] Starting updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json
+Info 778  [20:03:14.441] Finishing updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json Version: 87 structureChanged: false structureIsReused:: Completely Elapsed: 13.090452909469604ms
+Info 779  [20:03:14.441] Different program with same set of files
+Info 780  [20:03:16.207] Starting updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json
+Info 781  [20:03:16.220] Finishing updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json Version: 88 structureChanged: false structureIsReused:: Completely Elapsed: 12.407565832138062ms
+Info 782  [20:03:16.220] Different program with same set of files
+Info 783  [20:03:16.615] Starting updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json
+Info 784  [20:03:16.639] Finishing updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json Version: 89 structureChanged: false structureIsReused:: Completely Elapsed: 23.614537000656128ms
+Info 785  [20:03:16.639] Different program with same set of files
+Info 786  [20:03:16.894] Starting updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json
+Info 787  [20:03:16.915] Finishing updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json Version: 90 structureChanged: false structureIsReused:: Completely Elapsed: 21.16018319129944ms
+Info 788  [20:03:16.915] Different program with same set of files
+Info 789  [20:03:17.091] getCompletionData: Get current token: 0.013167858123779297
+Info 790  [20:03:17.091] getCompletionData: Is inside comment: 0.003673076629638672
+Info 791  [20:03:17.091] getCompletionData: Get previous token: 0.03503704071044922
+Info 792  [20:03:17.091] getCompletionsAtPosition: isCompletionListBlocker: 0.004467010498046875
+Info 793  [20:03:17.094] getExportInfoMap: cache hit
+Info 794  [20:03:17.109] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 261 from cache
+Info 795  [20:03:17.109] collectAutoImports: response is incomplete
+Info 796  [20:03:17.109] collectAutoImports: 15.44055700302124
+Info 797  [20:03:17.109] getCompletionData: Semantic work: 18.208652019500732
+Info 798  [20:03:17.117] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 7.004451036453247
+Info 799  [20:03:17.642] Starting updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json
+Info 800  [20:03:17.645] Finishing updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json Version: 91 structureChanged: false structureIsReused:: Completely Elapsed: 2.59318208694458ms
+Info 801  [20:03:17.645] Different program with same set of files
+Info 802  [20:03:18.911] Starting updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json
+Info 803  [20:03:18.928] Finishing updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json Version: 92 structureChanged: false structureIsReused:: Completely Elapsed: 16.985673904418945ms
+Info 804  [20:03:18.928] Different program with same set of files
+Info 805  [20:03:20.179] Starting updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json
+Info 806  [20:03:20.190] Finishing updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json Version: 93 structureChanged: false structureIsReused:: Completely Elapsed: 11.040772914886475ms
+Info 807  [20:03:20.190] Different program with same set of files
+Info 808  [20:03:20.192] getCompletionData: Get current token: 0.03880190849304199
+Info 809  [20:03:20.192] getCompletionData: Is inside comment: 0.01118779182434082
+Info 810  [20:03:20.192] getCompletionData: Get previous token: 0.17951512336730957
+Info 811  [20:03:20.192] getCompletionsAtPosition: isCompletionListBlocker: 0.03518986701965332
+Info 812  [20:03:20.192] Returning an empty list because completion was requested in an invalid position.
+Info 813  [20:03:20.224] getCompletionData: Get current token: 0.00967097282409668
+Info 814  [20:03:20.224] getCompletionData: Is inside comment: 0.003826141357421875
+Info 815  [20:03:20.224] getCompletionData: Get previous token: 0.05392813682556152
+Info 816  [20:03:20.224] getCompletionsAtPosition: isCompletionListBlocker: 0.01643204689025879
+Info 817  [20:03:20.224] Returning an empty list because completion was requested in an invalid position.
+Info 818  [20:03:20.226] getCompletionData: Get current token: 0.008982181549072266
+Info 819  [20:03:20.226] getCompletionData: Is inside comment: 0.0035610198974609375
+Info 820  [20:03:20.226] getCompletionData: Get previous token: 0.0536348819732666
+Info 821  [20:03:20.226] getCompletionsAtPosition: isCompletionListBlocker: 0.010803937911987305
+Info 822  [20:03:20.226] Returning an empty list because completion was requested in an invalid position.
+Info 823  [20:03:21.402] forEachExternalModuleToImportFrom autoImportProvider: 0.023154020309448242
+Info 824  [20:03:21.626] Starting updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json
+Info 825  [20:03:21.651] Finishing updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json Version: 94 structureChanged: false structureIsReused:: Completely Elapsed: 24.624564170837402ms
+Info 826  [20:03:21.651] Different program with same set of files
+Info 827  [20:03:21.652] Starting updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json
+Info 828  [20:03:21.661] Finishing updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json Version: 95 structureChanged: false structureIsReused:: Completely Elapsed: 8.928982973098755ms
+Info 829  [20:03:21.661] Different program with same set of files
+Info 830  [20:03:21.875] forEachExternalModuleToImportFrom autoImportProvider: 0.008630990982055664
+Info 831  [20:03:21.876] forEachExternalModuleToImportFrom autoImportProvider: 0.007956981658935547
+Info 832  [20:03:22.245] forEachExternalModuleToImportFrom autoImportProvider: 0.006851911544799805
+Info 833  [20:03:22.246] forEachExternalModuleToImportFrom autoImportProvider: 0.006930112838745117
+Info 834  [20:03:22.563] Starting updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json
+Info 835  [20:03:22.568] Finishing updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json Version: 96 structureChanged: false structureIsReused:: Completely Elapsed: 4.17478609085083ms
+Info 836  [20:03:22.568] Different program with same set of files
+Info 837  [20:03:22.602] forEachExternalModuleToImportFrom autoImportProvider: 0.010745048522949219
+Info 838  [20:03:22.603] forEachExternalModuleToImportFrom autoImportProvider: 0.006482839584350586
+Info 839  [20:03:22.927] Starting updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json
+Info 840  [20:03:22.943] Finishing updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json Version: 97 structureChanged: false structureIsReused:: Completely Elapsed: 16.341166019439697ms
+Info 841  [20:03:22.943] Different program with same set of files
+Info 842  [20:03:22.990] forEachExternalModuleToImportFrom autoImportProvider: 0.0068509578704833984
+Info 843  [20:03:23.505] Starting updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json
+Info 844  [20:03:23.524] Finishing updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json Version: 98 structureChanged: false structureIsReused:: Completely Elapsed: 18.215668201446533ms
+Info 845  [20:03:23.524] Different program with same set of files
+Info 846  [20:03:23.592] forEachExternalModuleToImportFrom autoImportProvider: 0.006878852844238281
+Info 847  [20:03:23.933] forEachExternalModuleToImportFrom autoImportProvider: 0.006166934967041016
+Info 848  [20:03:24.692] Format host information updated
+Info 849  [20:03:24.944] Starting updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json
+Info 850  [20:03:24.958] Finishing updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json Version: 99 structureChanged: false structureIsReused:: Completely Elapsed: 13.711420059204102ms
+Info 851  [20:03:24.958] Different program with same set of files
+Info 852  [20:03:25.626] Starting updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json
+Info 853  [20:03:25.652] Finishing updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json Version: 100 structureChanged: false structureIsReused:: Completely Elapsed: 25.105517148971558ms
+Info 854  [20:03:25.652] Different program with same set of files
+Info 855  [20:03:26.938] forEachExternalModuleToImportFrom autoImportProvider: 0.00719904899597168
+Info 856  [20:03:27.737] Starting updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json
+Info 857  [20:03:27.755] Finishing updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json Version: 101 structureChanged: false structureIsReused:: Completely Elapsed: 18.014513969421387ms
+Info 858  [20:03:27.755] Different program with same set of files
+Info 859  [20:03:29.181] DirectoryWatcher:: Triggered with /home/gpavlovic/sources/remix-run-intro :: WatchInfo: /home/gpavlovic/sources/remix-run-intro 1 undefined Config: /home/gpavlovic/sources/remix-run-intro/tsconfig.json WatchType: Wild card directory
+Info 860  [20:03:29.183] Elapsed:: 1.0263102054595947ms DirectoryWatcher:: Triggered with /home/gpavlovic/sources/remix-run-intro :: WatchInfo: /home/gpavlovic/sources/remix-run-intro 1 undefined Config: /home/gpavlovic/sources/remix-run-intro/tsconfig.json WatchType: Wild card directory
+Info 861  [20:03:29.460] Starting updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json
+Info 862  [20:03:29.461] Finishing updateGraphWorker: Project: /home/gpavlovic/sources/remix-run-intro/tsconfig.json Version: 102 structureChanged: false structureIsReused:: Completely Elapsed: 0.480349063873291ms
+Info 863  [20:03:31.683] Before ensureProjectForOpenFiles:
+Info 864  [20:03:31.683] After ensureProjectForOpenFiles:
+Info 865  [20:03:31.683] got projects updated in background, updating diagnostics for /home/gpavlovic/sources/remix-run-intro/app/routes/index.tsx,/home/gpavlovic/sources/remix-run-intro/app/entry.client.tsx,/home/gpavlovic/sources/remix-run-intro/app/entry.server.tsx,/home/gpavlovic/sources/remix-run-intro/app/root.tsx,/home/gpavlovic/sources/remix-run-intro/app/routes/posts/index.tsx
