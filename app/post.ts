@@ -21,6 +21,13 @@ export type NewPost = {
     markdown: string;
 }
 
+export type EditPost = {
+    oldSlug: string;
+    newTitle: string;
+    newSlug: string;
+    newMarkdown: string;
+}
+
 function isValidPostAttributes(attributes: any): attributes is PostMarkdownAttributes {
     return attributes?.title;
 };
@@ -50,7 +57,7 @@ export async function getPosts() {
     );
 }
 
-export async function getPost(slug: string) {
+export async function getRawPost(slug: string) {
     const filepath = path.join(postsPath, slug + ".md");
     const file = await fs.readFile(filepath);
     const { attributes, body } = parseFrontMatter(file.toString());
@@ -60,8 +67,13 @@ export async function getPost(slug: string) {
         `Post ${filepath} is missing attributes`
     );
 
-    const html = marked(body);
-    return { slug, title: attributes.title, html };
+    return { slug, title: attributes.title, markdown: body };
+};
+
+export async function getPost(slug: string) {
+    const rawPost = await getRawPost(slug);
+    const html = marked(rawPost.markdown);
+    return { slug, title: rawPost.title, html };
 };
 
 export async function createPost(post: NewPost) {
@@ -72,3 +84,8 @@ export async function createPost(post: NewPost) {
     );
     return getPost(post.slug);
 };
+
+export async function editPost(post: EditPost) {
+    await fs.rm(path.join(postsPath, post.oldSlug + '.md'));
+    await createPost({ title: post.newTitle, slug: post.newSlug, markdown: post.newMarkdown });
+}

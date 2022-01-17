@@ -1,17 +1,17 @@
-import { Link, Outlet, useLoaderData } from "remix";
-import { getPosts } from "~/post";
+import { Link, LoaderFunction, Outlet, useLoaderData } from "remix";
+import { getPosts, Post } from "~/post";
 import adminStyles from "~/styles/admin.css";
 
 export const links = () => {
     return [{ rel: "stylesheet", href: adminStyles }];
 };
 
-export const loader = () => {
+export const loader: LoaderFunction = () => {
     return getPosts();
 };
 
 export default function Admin() {
-    const posts = useLoaderData();
+    const posts = useLoaderData<Post[]>();
     return (
         <div className="admin">
             <nav>
@@ -19,7 +19,7 @@ export default function Admin() {
                 <ul>
                     {posts.map(post => (
                         <li key={post.slug}>
-                            <Link to={`/posts/${post.slug}`}>
+                            <Link to={`/admin/edit/${post.slug}`}>
                                 {post.title}
                             </Link>
                         </li>
